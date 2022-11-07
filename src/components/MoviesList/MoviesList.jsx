@@ -1,12 +1,7 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import styled from 'styled-components';
-
-export const Li = styled.li`
-  font-size: 20px;
-  padding: 4px;
-`;
+import { Li } from './MoviesList.styled.js';
 
 export const MoviesList = ({ movies }) => {
   const location = useLocation();

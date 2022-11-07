@@ -1,5 +1,5 @@
 import { useFetchTrandingMovies } from 'hooks/useFetchTrandingMovies';
-import { MoviesList } from '../components/MovieList/MovieList';
+import { MoviesList } from 'components/MoviesList/MoviesList';
 import { Loader } from 'components/Loader/Loader';
 
 export const HomePage = () => {
